@@ -2,6 +2,8 @@ import random
 from random import randint
 import datetime
 print("-----------------------------")
+print("| Ваш план питания на сегодня |")
+
 print("Дата:")
 current_date = datetime.datetime.today().strftime('%A %B %d, %Y')
 
