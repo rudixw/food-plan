@@ -1,6 +1,8 @@
 import random
 from random import randint
 import datetime
+print("-----------------------------")
+print("Дата:")
 current_date = datetime.datetime.today().strftime('%A %B %d, %Y')
 
 print(current_date)
@@ -43,3 +45,4 @@ class Meals():
 if __name__ == '__main__':
     meals = Meals()
     meals.plan()
+print("-----------------------------")
